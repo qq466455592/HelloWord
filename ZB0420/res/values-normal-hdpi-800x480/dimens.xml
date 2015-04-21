@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- samsung sch-1879:800*480,240 -->
+     <!--标题  -->
+     <dimen name="top_name_size">14sp</dimen>
+    <!-- 列表 -->
+    <dimen name="item_name_size">13sp</dimen>
+    <dimen name="item_describe_size">10sp</dimen>
+    <dimen name="item_current_price_size">16sp</dimen>
+    <dimen name="item_original_price_size">10sp</dimen>
+    <!-- 商品详情 -->
+    <dimen name="btn_pay_size">14sp</dimen>
+    <dimen name="tv_name_size">14sp</dimen>
+    <dimen name="tv_use_range_size">11sp</dimen>
+    <dimen name="tv_booking_size">11sp</dimen>
+    <dimen name="tv_phone_number_size">12sp</dimen>
+    <dimen name="tv_address_size">12sp</dimen>
+    <dimen name="tv_content_size">11sp</dimen>
+
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/item_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="上海金逸影城"
+            android:textColor="@color/black1"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RatingBar
+                android:id="@+id/ratingbar"
+                style="@style/Widget.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4"
+                android:stepSize="0.1" />
+
+            <TextView
+                android:id="@+id/item_tv_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="8.0"
+                android:textColor="@color/font_orange"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/item_tv_evaluate_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="(1500人评价)"
+                android:textColor="@color/black2"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_location"
+            android:singleLine="true"
+            android:text="普陀区金沙江路1628号绿洲中环太平洋广场5号楼"
+            android:textColor="@color/black3"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="选座购票"
+        android:textColor="@color/black2"
+        android:textSize="16sp" />
+
+    <com.mobile.meishang.ui.widget.MyRecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp" >
+    </com.mobile.meishang.ui.widget.MyRecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/item_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="银河护卫队"
+            android:textColor="@color/black2"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:text="9.0"
+            android:textColor="@color/font_orange"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_tv_duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="片长：92分钟"
+            android:textColor="@color/black3"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/item_tv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="影片详情"
+            android:textColor="@color/font_orange"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/item_tv_today"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onclick"
+            android:padding="10dp"
+            android:text="今天10-23"
+            android:textColor="@drawable/font_blackorange_selected"
+            android:textSize="16sp" />
+
+        <View style="@style/line_vertical_style" />
+
+        <TextView
+            android:id="@+id/item_tv_tomorrow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onclick"
+            android:padding="10dp"
+            android:text="明天10-24"
+            android:textColor="@drawable/font_blackorange_selected"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

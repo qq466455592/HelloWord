@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_top_back" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/edit_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="top"
+                    android:hint="欢迎提出宝贵的意见"
+                    android:minLines="5"
+                    android:textColor="@color/black1"
+                    android:textColorHint="@color/black3"
+                    android:textSize="@dimen/top_name_size" />
+
+                <EditText
+                    android:id="@+id/edit_contact_way"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="手机号/E-mail"
+                    android:singleLine="true"
+                    android:textColor="@color/black1"
+                    android:textColorHint="@color/black3"
+                    android:textSize="@dimen/top_name_size" />
+
+                <Button
+                    android:id="@+id/btn_sub"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/bg_fillet_green"
+                    android:onClick="onclick"
+                    android:padding="10dp"
+                    android:text="提交"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/top_name_size" />
+            </LinearLayout>
+        </ScrollView>
+
+        <include
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/loadingview"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

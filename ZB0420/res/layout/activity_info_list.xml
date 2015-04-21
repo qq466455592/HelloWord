@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_top_back" />
+
+    <LinearLayout
+        android:id="@+id/title_choice_llayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <FrameLayout
+            android:id="@+id/category_a_flayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onclick" >
+
+            <TextView
+                android:id="@+id/category_a_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/head_category_icon"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/arrow_down_icon"
+                android:gravity="bottom"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="时间排序"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/top_name_size" />
+        </FrameLayout>
+
+        <View style="@style/line_vertical_style" />
+
+        <FrameLayout
+            android:id="@+id/category_b_flayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onclick"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/category_b_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/head_city_icon"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/arrow_down_icon"
+                android:text="资讯类型"
+                android:textColor="@color/black2" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/loadingview" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/no_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/face"
+            android:visibility="gone" />
+
+        <com.mobile.meishang.utils.view.pulltorefresh.XListView
+            android:id="@+id/mlistview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@null"
+            android:dividerHeight="1dp" />
+
+        <LinearLayout
+            android:id="@+id/llayout_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ListView
+                android:id="@+id/lv_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ListView
+                android:id="@+id/lv_b"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

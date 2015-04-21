@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发现" />
+
+            <TextView
+                android:id="@+id/feedback"
+                style="@style/setting_text_style"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:onClick="onclick"
+                android:text="积分有效期查询" />
+
+            <TextView
+                android:id="@+id/clear_cache"
+                style="@style/setting_text_style"
+                android:layout_marginTop="1dp"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:text="各行信用卡积分规则" />
+
+            <TextView
+                android:id="@+id/version_update"
+                style="@style/setting_text_style"
+                android:layout_marginTop="1dp"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:text="周边银行网点查询" />
+
+            <TextView
+                android:id="@+id/newbie_help"
+                style="@style/setting_text_style"
+                android:layout_marginTop="1dp"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:text="快递查询" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="探索" />
+
+            <TextView
+                style="@style/setting_text_style"
+                android:layout_marginTop="1dp"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:text="积分性价比" />
+
+            <TextView
+                style="@style/setting_text_style"
+                android:layout_marginTop="1dp"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:text="积分消費分析" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<com.mobile.meishang.utils.view.pulltorefresh.MExpandableListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/expandabel_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:cacheColorHint="@android:color/transparent"
+    android:childDivider="@color/line"
+    android:dividerHeight="1px"
+    android:listSelector="@android:color/transparent" />

@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black2"
+        android:paddingBottom="5dp"
+        android:paddingLeft="13dip"
+        android:paddingTop="5dp"
+        android:text="热门城市"
+        android:textColor="@color/white" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="北京"
+                android:textColor="@drawable/font_blackorange_selected" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="上海"
+                android:textColor="@drawable/font_blackorange_selected" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="广州"
+                android:textColor="@drawable/font_blackorange_selected" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="深圳"
+                android:textColor="@drawable/font_blackorange_selected" />
+        </TableRow>
+
+        <TableRow
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="天津"
+                android:textColor="@drawable/font_blackorange_selected" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="杭州"
+                android:textColor="@drawable/font_blackorange_selected" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="武汉"
+                android:textColor="@drawable/font_blackorange_selected" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="南京"
+                android:textColor="@drawable/font_blackorange_selected" />
+        </TableRow>
+
+        <TableRow
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="重庆"
+                android:textColor="@drawable/font_blackorange_selected" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="西安"
+                android:textColor="@drawable/font_blackorange_selected" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="成都"
+                android:textColor="@drawable/font_blackorange_selected" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_green_selected"
+                android:text="厦门"
+                android:textColor="@drawable/font_blackorange_selected" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

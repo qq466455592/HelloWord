@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- google_colors -->
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+    <!--  -->
+    <color name="gold">#b89766</color>
+    <color name="black">#ff000000</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <!-- 通用颜色 -->
+    <color name="dotted_line">#E1E1E1</color>
+    <color name="item_bg_green">#d3eaea</color>
+    <!-- 首页 -->
+    <color name="title_bg">#01A1A1</color>
+    <color name="home_image_bg_a">#e34651</color>
+    <color name="home_image_bg_b">#f2b80c</color>
+    <color name="home_image_bg_c">#46af6d</color>
+    <color name="home_image_bg_d">#1fb695</color>
+    <color name="home_image_bg_e">#e35845</color>
+    <color name="home_image_bg_f">#fc8f10</color>
+    <color name="home_image_bg_g">#1caca3</color>
+    <color name="home_function_image_bg_a">#CB4D72</color>
+    <color name="home_function_image_bg_b">#F1AD1C</color>
+    <color name="home_function_image_bg_c">#44ADCA</color>
+    <color name="home_function_image_bg_d">#3EB0B0</color>
+    <color name="home_function_image_bg_e">#D34D58</color>
+    <color name="homeb_function_image_bg">#E3E3E3</color>
+    <color name="coupon_detail_orange">#FB870C</color>
+    <color name="orange_btnbg">#F9951B</color>
+    <color name="orange_titleBar">#f89119</color>
+    <color name="red_price">#DD0000</color>
+    <color name="word_green">#328300</color>
+    <color name="edit_bg_gray">#F4F4F4</color>
+    <color name="red1">#d83f6a</color>
+    <color name="orange1">#ffaa07</color>
+    <color name="light_green">#ffc9eae8</color>
+    <!-- tab -->
+    <color name="tabMedium">#2B2B2B</color>
+    <color name="tabDark">#000000</color>
+    <color name="tabTransparent">#10ffffff</color>
+    <!-- 二维码 -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="gray_search_bg">#E4E4E4</color>
+
+    <drawable name="bg_image_press">#883f3f3f</drawable>
+    <drawable name="bg_image_normal">#0000</drawable>
+    <!-- 这开始 -->
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#90FFFFFF</color>
+    <color name="transparent_black">#a0000000</color>
+    <color name="translucent">#55000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg">#f3f3f3</color>
+    <color name="bg_line">#cacaca</color>
+    <color name="black1">#ff333333</color>
+    <color name="black2">#ff666666</color>
+    <color name="black3">#ff999999</color>
+    <color name="black4">#ffcccccc</color>
+    <!-- tab -->
+    <color name="tab_font_true">#58554e</color>
+    <color name="tab_font_false">#857e74</color>
+    <color name="tab_bg">#cbbeae</color>
+    <color name="bg_title">#f2ede3</color>
+    <color name="font_title">#58554f</color>
+    <color name="bg_oneday_item">#f8f2ed</color>
+    <color name="line">#c8c8c8</color>
+    <color name="btnbg_orange">#ff6600</color>
+    <color name="font_blue">#148eff</color>
+    <color name="font_orange">#ff6600</color>
+    <color name="font_black">#323232</color>
+    <color name="font_gray">#6e6e6e</color>
+    <color name="font_gray2">#969696</color>
+    <color name="bg_login">#E4DAD3</color>
+
+</resources>

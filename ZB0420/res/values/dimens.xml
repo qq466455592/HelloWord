@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size_h1">32.0sp</dimen>
+    <dimen name="text_size_h2">22.0sp</dimen>
+    <dimen name="text_size_h3">20.0sp</dimen>
+    <dimen name="text_size_h4">16.0sp</dimen>
+    <dimen name="text_size_h5">14.0sp</dimen>
+    <dimen name="text_size_h6">12.0sp</dimen>
+    <dimen name="text_size_h7">10.0sp</dimen>
+
+    <!-- tab -->
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="corner_radius_zero">0dp</dimen>
+    <dimen name="tab_space_top">4dp</dimen>
+    <dimen name="tab_space">0dp</dimen>
+    <dimen name="tab_space_plus1">3dp</dimen>
+    <dimen name="tab_space_bottom_line">36sp</dimen>
+    <dimen name="tab_space_unselected_top">6sp</dimen>
+    <!-- com.ivpoints.mobile.utils.view.pulltorefresh -->
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="footer_height">90dp</dimen>
+    <dimen name="footer_padding">10dp</dimen>
+    <!-- 标题 -->
+    <dimen name="top_name_size">18sp</dimen>
+    <!-- 列表 -->
+    <dimen name="item_name_size">17sp</dimen>
+    <dimen name="item_describe_size">12sp</dimen>
+    <dimen name="item_current_price_size">20sp</dimen>
+    <dimen name="item_original_price_size">12sp</dimen>
+    <!-- 商品详情 -->
+    <dimen name="btn_pay_size">18sp</dimen>
+    <dimen name="tv_name_size">18sp</dimen>
+    <dimen name="tv_use_range_size">15sp</dimen>
+    <dimen name="tv_booking_size">15sp</dimen>
+    <dimen name="tv_phone_number_size">16sp</dimen>
+    <dimen name="tv_address_size">16sp</dimen>
+    <dimen name="tv_content_size">15sp</dimen>
+    <!-- 列表图片 -->
+    <dimen name="item_image_width">110dp</dimen>
+    <dimen name="item_image_height">90dp</dimen>
+    <!-- zuo -->
+    <dimen name="padding_1dp">1dp</dimen>
+    <dimen name="padding_2dp">2dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="padding_100dp">100dp</dimen>
+    <!-- zuo -->
+
+    <dimen name="ss_seat_thum_size_h">90.0dip</dimen>
+    <dimen name="ss_seat_thum_size_w">120.0dip</dimen>
+    <dimen name="seat_max_height">60dip</dimen>
+    <dimen name="seat_min_height">30dip</dimen>
+    <dimen name="seat_max_width">60dip</dimen>
+    <dimen name="seat_min_width">30dip</dimen>
+    <dimen name="seat_init_width">50dip</dimen>
+    <dimen name="seat_init_height">50dip</dimen>
+    <dimen name="ss_between_offset">5.0dip</dimen>
+    <dimen name="ss_seat_check_size">30.0dip</dimen>
+
+</resources>

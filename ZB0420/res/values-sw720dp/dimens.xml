@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- samsung gt-n7108,nubia-nx403A :1280*720 ,320 -->
+    <!-- samsung sch-1879:800*480,xiaomi 1s :854*480,240 -->
+    <!-- 列表 -->
+    <dimen name="item_name_size">1sp</dimen>
+    <dimen name="item_describe_size">10sp</dimen>
+    <dimen name="item_current_price_size">10sp</dimen>
+    <dimen name="item_original_price_size">10sp</dimen>
+
+</resources>

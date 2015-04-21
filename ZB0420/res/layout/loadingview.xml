@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.mobile.meishang.utils.view.LoadingView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="#e4d9d3" >
+
+    <FrameLayout
+        android:id="@+id/loading_ind"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- 应用列表当用户下拉到底部时，当还存在数据继续需要展示时 显示 -->
+
+        <ProgressBar
+            android:id="@+id/loadprogressbar"
+            style="@style/load_progress_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/loading_icon" />
+
+        <TextView
+            android:id="@+id/hite_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/loading"
+            android:textSize="12sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/retry" />
+
+</com.mobile.meishang.utils.view.LoadingView>

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_top_back" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="　　享乐时光，惠己及人！乐时惠是定位于本地精品生活指南的特色平台，每天推出商家优惠信息，包括餐厅、酒吧、KTV、超市、美发店、影院等特色商家。"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/item_name_size" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="　　官方微博：j.zhang@i-vpoints.com"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/item_name_size" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="　　客服电话：400-006-7900"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/item_name_size" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

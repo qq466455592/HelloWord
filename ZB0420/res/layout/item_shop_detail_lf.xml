@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/transparent_white"
+        android:drawableRight="@drawable/ic_arrow_right_gray"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="网友点评(509)"
+        android:textColor="@color/black1"
+        android:textSize="16sp" />
+
+    <View style="@style/line_horizontal_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent_white"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/item_image"
+            style="@style/item_image"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/loading_bg_img_item" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/item_tv_nickname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="蜘蛛侠"
+                    android:textColor="@color/black1"
+                    android:textSize="16sp" />
+
+                <RatingBar
+                    android:id="@+id/ratingbar"
+                    style="@style/Widget.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:rating="4.4"
+                    android:stepSize="0.1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_say"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:singleLine="true"
+                android:text="不错不错!!"
+                android:textColor="@color/black2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="2014-10-10"
+                android:textColor="@color/black3"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/transparent_white"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="商户简介"
+        android:textColor="@color/black1"
+        android:textSize="16sp" />
+
+    <View style="@style/line_horizontal_style" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/transparent_white"
+        android:padding="10dp"
+        android:text="愛茜茜里是来自愛茜茜里是来自愛茜茜里是来自愛茜茜里是来自愛茜茜里是来自愛茜茜里是来自愛茜茜里是来自愛茜茜里是来自"
+        android:textColor="@color/black2"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/translucent" >
+
+    <ImageView
+        android:id="@+id/img_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/loading_bg_img245"
+        android:visibility="gone" />
+
+    <com.mobile.meishang.utils.view.AdGallery
+        android:id="@+id/ad_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fadingEdge="none"
+        android:spacing="0dip" />
+
+    <LinearLayout
+        android:id="@+id/ad_dot_llayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="2dip" />
+
+</FrameLayout>
